@@ -44,7 +44,7 @@ module.exports = {
   },
   plugins: [
     new webpack.EnvironmentPlugin({
-      CONTACTS_API_URI: 'http://localhost:9900'
+      CONTACTS_API_URI: '/'
     })
   ]
 }
